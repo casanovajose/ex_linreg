@@ -17,7 +17,7 @@ defmodule LinregWeb.Router do
   scope "/", LinregWeb do
     pipe_through :browser
 
-    live "/", PageLive, :index
+    live "/", RegressionLive, :index
   end
 
   # Other scopes may use custom stacks.

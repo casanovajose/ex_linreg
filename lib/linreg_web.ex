@@ -90,6 +90,7 @@ defmodule LinregWeb do
       import LinregWeb.ErrorHelpers
       import LinregWeb.Gettext
       alias LinregWeb.Router.Helpers, as: Routes
+      import Linreg.Math, only: [map: 5]
     end
   end
 
